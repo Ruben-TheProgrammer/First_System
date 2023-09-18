@@ -10,22 +10,19 @@ Este es mi primer sistema en PHP para gestionar información de Paises. El siste
 
 ## Funcionalidades
 
-1. Index: La página principal del sistema muestra una lista de las personas almacenadas en la base de datos. Los usuarios pueden navegar y acceder a otras funcionalidades desde aquí.
+1. agregar.php: Este archivo probablemente se utiliza para agregar nuevos países o información relacionada con países a tu sistema. Podría contener un formulario web donde los usuarios pueden ingresar detalles sobre un nuevo país, como su nombre, población, capital, idioma, etc., y luego procesar y almacenar esos datos en la base de datos.
 
-2. Listar Persona: Permite ver los detalles de una persona específica. Los usuarios pueden hacer clic en una persona de la lista para ver su información completa.
+2. ciudades.php: Este archivo podría estar relacionado con la gestión de ciudades dentro de los países. Puede mostrar una lista de ciudades, permitir la edición o eliminación de ciudades existentes, o incluso permitir la adición de nuevas ciudades a un país específico.
 
-3. Editar Persona: Proporciona la capacidad de editar la información de una persona existente. Los usuarios pueden actualizar datos como el nombre, apellido, dirección, etc.
+3. db.php: Este archivo probablemente contenga la configuración y las funciones relacionadas con la base de datos de tu sistema. Podría definir la conexión a la base de datos, funciones para realizar consultas y actualizaciones en la base de datos, y otras operaciones relacionadas con la base de datos.
 
-4. Eliminar Persona: Permite eliminar una persona de la base de datos. Se debe confirmar la eliminación para evitar eliminaciones accidentales.
+4. index.php: El archivo index.php suele ser la página de inicio o la página principal de tu aplicación. Puede mostrar una lista de países o alguna información relevante sobre el sistema. También podría proporcionar enlaces a otras partes del sistema, como la página de agregar o la de ciudades.
 
-5. Guardar Persona: Permite agregar una nueva persona a la base de datos. Los usuarios pueden ingresar información detallada sobre una nueva persona y guardarla en la base de datos.
+5. nuevo.php: Similar a "agregar.php", este archivo podría usarse para agregar nuevos registros relacionados con países o cualquier otra entidad en tu sistema. La diferencia podría radicar en el flujo de trabajo específico que implementa.
 
-6. Reporte de Personas: Genera un informe que muestra estadísticas o información relevante sobre todas las personas en la base de datos. Puede incluir gráficos o tablas para una presentación visual.
+6. paises.php: Este archivo podría mostrar una lista de países almacenados en la base de datos, permitiendo a los usuarios ver, buscar o filtrar países. También podría proporcionar opciones para editar o eliminar registros de países existentes.
 
-7. Base de Datos: El sistema utiliza una base de datos para almacenar la información de las personas. Puede estar basada en una tecnología como MySQL o SQLite. La base de datos es crucial para garantizar la persistencia de los datos.
-
-8. Sistema como Base de Datos: En lugar de utilizar una base de datos externa, este sistema implementa su propio sistema de almacenamiento de datos. Esto puede incluir estructuras de datos en archivos o en memoria.
-
+7. php_combo.sql: Este archivo probablemente contiene el script SQL para crear tablas y definir la estructura de la base de datos que se utiliza en tu sistema. "php_combo" podría ser el nombre de la base de datos o una tabla importante en tu aplicación.
 
 > [!IMPORTANT]
 > # Importancia de Importar una Base de Datos a phpMyAdmin en Tu Proyecto
