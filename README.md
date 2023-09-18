@@ -89,7 +89,7 @@ Este archivo sería un script SQL que se ejecuta una sola vez para crear las tab
 
 Estos son ejemplos básicos y simplificados de cómo podrían utilizarse estas partes del sistema. La implementación real dependerá de tus necesidades específicas y de cómo diseñes y organices tu aplicación de gestión de países en PHP.
 > [!NOTE]
-> Explore los siguientes ejemplos para aprender cómo utilizar las funcionalidades clave de nuestro sistema de gestión de personas en PHP. Estos ejemplos le ayudarán a comenzar rápidamente y aprovechar al máximo nuestro proyecto.
+> Explore los siguientes ejemplos para aprender cómo utilizar las funcionalidades clave de nuestro sistema de gestión de paises en PHP. Estos ejemplos le ayudarán a comenzar rápidamente y aprovechar al máximo nuestro proyecto.
 
 ## Compatibilidad
 Nuestro sistema de gestión de personas en PHP está diseñado para ser altamente compatible con una variedad de entornos y tecnologías. A continuación, se detalla la compatibilidad que ofrecemos:
