@@ -2,8 +2,11 @@
 
 Este es mi primer sistema en PHP para gestionar información de personas. El sistema proporciona una serie de funciones clave que permiten administrar una base de datos de personas de manera sencilla. A continuación, se describen las principales características y funcionalidades del sistema:
 
-![Screen Shot 2022-11-23 at 9 51 36 AM](https://user-images.githubusercontent.com/4215777/203617422-4d912bfc-766f-4074-8324-409d9bbe7c05.png)
+![Captura de pantalla 2023-09-17 235835](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/fa1601c1-e081-400d-ac9b-bca0ebeffa49)
 
+![Captura de pantalla 2023-09-17 235842](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/33e2c10f-f572-4896-90e3-cc9e5547d63d)
+
+![Captura de pantalla 2023-09-17 235850](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/2a7506f2-e1e0-4bd4-9ef2-467474a43040)
 
 ## Funcionalidades
 
