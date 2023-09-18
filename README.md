@@ -8,6 +8,8 @@ Este es mi primer sistema en PHP para gestionar información de Paises. El siste
 
 ![Captura de pantalla 2023-09-17 235850](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/2a7506f2-e1e0-4bd4-9ef2-467474a43040)
 
+![Captura de pantalla 2023-09-18 002754](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/b4ef3f6d-dea0-4594-88aa-4dde56711e2b)
+
 ## Funcionalidades
 
 1. agregar.php: Este archivo probablemente se utiliza para agregar nuevos países o información relacionada con países a tu sistema. Podría contener un formulario web donde los usuarios pueden ingresar detalles sobre un nuevo país, como su nombre, población, capital, idioma, etc., y luego procesar y almacenar esos datos en la base de datos.
