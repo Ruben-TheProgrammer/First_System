@@ -1,6 +1,6 @@
-# First_System (Sistema de Gestión de Personas en PHP) ![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+# First_System (Sistema de Gestión de Paises en PHP) ![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
-Este es mi primer sistema en PHP para gestionar información de personas. El sistema proporciona una serie de funciones clave que permiten administrar una base de datos de personas de manera sencilla. A continuación, se describen las principales características y funcionalidades del sistema:
+Este es mi primer sistema en PHP para gestionar información de Paises. El sistema proporciona una serie de funciones clave que permiten administrar una base de datos de paises de manera sencilla. A continuación, se describen las principales características y funcionalidades del sistema:
 
 ![Captura de pantalla 2023-09-17 235835](https://github.com/Ruben-TheProgrammer/First_System/assets/83794486/fa1601c1-e081-400d-ac9b-bca0ebeffa49)
 
