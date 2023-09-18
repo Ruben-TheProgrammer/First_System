@@ -59,40 +59,35 @@ Una breve descripción de mi proyecto en PHP para gestionar información de pers
 
 ## Ejemplos
 
-### 1. Listar Personas
-Para listar todas las personas en la base de datos, los usuarios pueden acceder a la página principal del sistema. Aquí hay un ejemplo de cómo podrían hacerlo:
-Navegar al sitio web del sistema.
-En la página principal (index.php), verán una lista de todas las personas almacenadas en la base de datos, con nombres y apellidos.
-Hacer clic en el nombre de una persona para ver más detalles sobre esa persona.
+### 1. agregar.php:
 
-### 2. Ver Detalles de una Persona
-Los usuarios pueden ver información detallada sobre una persona específica siguiendo estos pasos:
-Desde la página de listado de personas, hacer clic en el nombre de la persona que deseen ver.
-Serán redirigidos a una página de detalles de la persona (persona.php), que mostrará información completa sobre esa persona, como nombre, apellido, dirección, número de teléfono, etc.
+En este archivo, podrías tener un formulario HTML que permite a los usuarios agregar un nuevo país a la base de datos. El formulario podría incluir campos como nombre del país, capital, población, idioma oficial, y más. Cuando el usuario envíe el formulario, PHP podría procesar los datos y utilizar consultas SQL para insertar el nuevo país en la base de datos.
 
-### 3. Editar Persona
-Si un usuario necesita actualizar la información de una persona en la base de datos, pueden utilizar la función de edición de la siguiente manera:
-En la página de detalles de la persona, hacer clic en el botón "Editar".
-Serán redirigidos a una página de edición (editar_persona.php) donde pueden modificar los campos de información de esa persona, como dirección o número de teléfono.
-Después de realizar las ediciones necesarias, pueden hacer clic en "Guardar" para actualizar la información de la persona.
+### 2. ciudades.php:
 
-### 4. Eliminar Persona
-Para eliminar una persona de la base de datos, los usuarios pueden seguir estos pasos:
-Desde la página de detalles de la persona, hacer clic en el botón "Eliminar".
-Se les pedirá una confirmación para evitar eliminaciones accidentales.
-Si confirman la eliminación, la persona será eliminada de la base de datos.
+Este archivo podría mostrar una lista de ciudades para un país seleccionado. Por ejemplo, podrías tener un menú desplegable que permita al usuario seleccionar un país y, al hacerlo, se muestren las ciudades asociadas a ese país desde la base de datos. También podrías permitir la edición o eliminación de ciudades existentes.
 
-### 5. Agregar Nueva Persona
-Si un usuario desea agregar una nueva persona a la base de datos, pueden hacerlo de la siguiente manera:
-En la página principal, hacer clic en el botón "Agregar Persona" o "Nuevo Registro".
-Serán redirigidos a un formulario (nueva_persona.php) donde pueden ingresar la información completa de la nueva persona, como nombre, apellido, dirección, número de teléfono, etc.
-Después de completar el formulario, pueden hacer clic en "Guardar" para agregar la nueva persona a la base de datos.
+### 3. db.php:
 
-### 6. Generar un Reporte de Personas
-Los usuarios pueden generar un informe que muestre estadísticas o información relevante sobre todas las personas en la base de datos. Aquí hay un ejemplo:
-En el menú del sistema, seleccionar la opción "Generar Reporte".
-Serán redirigidos a una página (reporte_personas.php) que muestra gráficos o tablas con estadísticas sobre las personas en la base de datos, como la cantidad total de personas, distribución por género, etc.
+En este archivo, definirías la configuración de la conexión a la base de datos utilizando una biblioteca como PDO o MySQLi. También podrías tener funciones que faciliten la ejecución de consultas SQL, la inserción de datos y la recuperación de resultados de la base de datos. Por ejemplo, una función podría ser conectar_db() para establecer la conexión y otra obtener_ciudades($pais) para recuperar las ciudades de un país específico.
 
+### 4. index.php:
+
+La página de inicio podría mostrar una lista de países disponibles en tu base de datos. Cada país podría ser un enlace que lleva a una página de detalles de ese país. También podrías tener un enlace para agregar un nuevo país.
+
+### 5. nuevo.php:
+
+Este archivo podría ser similar a "agregar.php" y mostrar un formulario para agregar nuevos países, pero podría tener un flujo de trabajo ligeramente diferente o requerir diferentes permisos de usuario.
+
+### 6. paises.php:
+
+Aquí podrías mostrar una lista de países almacenados en la base de datos con opciones para buscar o filtrar la lista. También podrías permitir a los usuarios editar o eliminar países existentes. Por ejemplo, podrías tener una tabla HTML que enumera los países y ofrece botones para editar o eliminar cada uno.
+
+### 7. php_combo.sql:
+
+Este archivo sería un script SQL que se ejecuta una sola vez para crear las tablas necesarias en la base de datos. Podría tener declaraciones SQL como CREATE TABLE para crear una tabla de países con campos como id, nombre, capital, población, idioma, etc.
+
+Estos son ejemplos básicos y simplificados de cómo podrían utilizarse estas partes del sistema. La implementación real dependerá de tus necesidades específicas y de cómo diseñes y organices tu aplicación de gestión de países en PHP.
 > [!NOTE]
 > Explore los siguientes ejemplos para aprender cómo utilizar las funcionalidades clave de nuestro sistema de gestión de personas en PHP. Estos ejemplos le ayudarán a comenzar rápidamente y aprovechar al máximo nuestro proyecto.
 
